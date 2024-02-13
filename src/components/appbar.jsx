@@ -13,10 +13,10 @@ function Appbar() {
                       color: "#9089DC"
                       
                   }}>coming soon</span> 
-                 <span className=" w-full" style={{
+                  <span className=" w-full lg:text-[48px] text-2xl md:text-2xl" style={{
     fontFamily:'inter',
     fontWeight:700,
-    fontSize:48,
+   
                       color:"#4848484D"
                  
 }}>Trading</span> 
@@ -41,10 +41,10 @@ function Appbar() {
                       color: "#9089DC"
 
                   }}>coming soon</span>
-                  <span className=" w-full" style={{
+                  <span className=" w-full lg:text-[48px] text-2xl md:text-2xl" style={{
                       fontFamily: 'inter',
                       fontWeight: 700,
-                      fontSize: 48,
+                      
                       color: "#4848484D"
 
                   }}>Automation</span>
@@ -65,10 +65,10 @@ function Appbar() {
                       color: "#9089DC"
 
                   }}>coming soon</span>
-                  <span className=" w-full" style={{
+                  <span className=" w-full lg:text-[48px] text-2xl md:text-2xl" style={{
                       fontFamily: 'inter',
                       fontWeight: 700,
-                      fontSize: 48,
+                      
                       color: "#4848484D"
 
                   }}>Portfolio</span>
@@ -82,10 +82,10 @@ function Appbar() {
               }} flexItem color="#B9B9B9" />
           </div>
           <div className="w-1/6 m-2 h-[96px] text-center items-center flex-row flex">
-              <span className="w-full" style={{
+              <span className="w-full lg:text-[48px] text-lg md:text-2xl" style={{
                   fontFamily: 'inter',
                   fontWeight: 700,
-                  fontSize: 48,
+                  
                   color: "#FFFFFF"
 
               }}>Alerts</span>
@@ -98,10 +98,10 @@ function Appbar() {
               }} flexItem color="#B9B9B9" />
           </div>
           <div className="w-1/6 m-2 h-[96px] text-center items-center flex-row flex">
-              <span className="w-full" style={{
+              <span className="w-full lg:text-[48px] text-2xl md:text-2xl" style={{
                   fontFamily: 'inter',
                   fontWeight: 700,
-                  fontSize: 48,
+                  
                   color: "#484848"
 
               }}>Training</span>

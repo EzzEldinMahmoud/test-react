@@ -5,7 +5,7 @@ import Body from './components/body'
 
 function App() {
   return (
-      <div className='bg-[#202020] h-[100vh] w-full flex-col flex items-center'>
+    <div className='bg-[#202020] min-h-screen w-full flex-col flex items-center'>
          <Header/>
          <Appbar/>
          <Body/>

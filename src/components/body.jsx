@@ -83,15 +83,18 @@ const colourStyles = {
 
 function Body() {
     return (
-        <div className='w-11/12 mt-5 h-11/12 rounded-[15px] bg-[#181818] flex flex-col items-center justify-start'>
-            <div className='flex-row flex h-12/12 w-full  m-10 p-12 justify-start  space-x-5 '>
-                <div className='w-3/12 h-11/12 rounded-[15px] bg-[#212121] items-center flex-col flex justify-start pt-8'>
-                    <p style={{
+        <div className='w-11/12 mt-5 h-11/12 rounded-[15px] bg-[#181818] flex flex-col md:flex-col  lg:flex-row items-center justify-center'>
+            <div className='flex-col md:flex-col lg:flex-row flex h-12/12 w-full  m-10 p-12 justify-start  space-x-5 '>
+                <div className='w-full ml-4 lg:w-3/12 h-11/12 rounded-[15px] bg-[#212121] items-center  lg:flex-col flex-col flex justify-start pt-8 mb-5 lg:mb-1 p-2'>
+                    <div className='w-full ml-5 text-center'>
+                         <p style={{
                         fontFamily: 'inter',
                         fontWeight: 700,
                         fontSize: 45,
                         color: "#FFFFFF"
                     }}>Filters</p>
+                    </div>
+                    <div className='w-11/12 lg:w-12/12 h-11/12  bg-[#212121] flex-row flex justify-around lg:flex-col '> 
                     <div className='w-full h-auto p-6 flex-col flex '>
                         <p className='mb-2' style={{
                             fontFamily: 'Poppins',
@@ -194,7 +197,7 @@ IndicatorSeparator: () => null
                         />
                        
                     </div>
-                    <button className='mt-28 mb-5 rounded-[14px] h-[70px] w-11/12 bg-[#554DB7] hover:cursor-pointer hover:bg-[#443d92]' >
+                    </div><button className='mt-28 mb-5 rounded-[14px] h-[70px] w-11/12 bg-[#554DB7] hover:cursor-pointer hover:bg-[#443d92]' >
                         <p
                             style={{
                                 fontFamily: 'Poppins',
@@ -204,14 +207,15 @@ IndicatorSeparator: () => null
                             }}
                         >Apply Filters</p>
                     </button>
+                   
                 </div>
-                <div className='w-9/12 h-9/12 rounded-[15px] bg-[#212121] p-8 items-center'>
-                    <div className='w-full  p-5 h-10/12 items-center justify-between rounded-[15px] flex-col flex ' style={{
+                <div className='w-full lg:w-9/12 h-9/12 rounded-[15px] bg-[#212121] p-8 items-center'>
+                    <div className='w-full  p-5 h-10/12 items-center justify-between rounded-[15px] flex-col flex  border border-[#D5D5D5] ' style={{
                         backgroundImage: `url(${bgcolor})`,
                         backgroundRepeat:'no-repeat',
                         backgroundSize:'cover'
                     }}>
-                        <div className='w-full h-full items-center justify-around  flex-row flex '>
+                        <div className='w-full h-full items-center justify-around  flex-row flex  '>
                             <div className='flex-row flex items-center'>
                                 <svg width="43" height="34" viewBox="0 0 43 34" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                     <rect x="0.613159" y="0.155302" width="41.7974" height="33.6614" fill="url(#pattern0)" />
